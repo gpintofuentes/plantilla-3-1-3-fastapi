@@ -1,0 +1,13 @@
+# Servicio (variante FastAPI) · versiones fijadas
+fastapi==0.161.1
+starlette==1.10.0
+uvicorn==0.54.0
+pydantic==2.14.1
+httpx2==2.16.0
+# Modelo: deben coincidir con las versiones del entrenamiento (models/metadata.json)
+scikit-learn==1.8.0
+joblib==1.5.1
+numpy==2.3.5
+scipy==1.16.3
+# Pruebas
+pytest==9.1.1

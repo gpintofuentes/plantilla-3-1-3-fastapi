@@ -1,0 +1,20 @@
+{
+  "version_modelo": "novasur-churn-1.0.0",
+  "atributos": [
+    "antiguedad_meses",
+    "saldo_cuenta_promedio",
+    "productos_activos",
+    "reclamos_ultimos_6m",
+    "uso_tarjeta_credito_pct",
+    "scoring_satisfaccion"
+  ],
+  "algoritmo": "Pipeline(StandardScaler, GradientBoostingClassifier)",
+  "auc_prueba": 0.7981,
+  "tasa_fuga_entrenamiento": 0.2096,
+  "python": "3.12.3",
+  "scikit_learn": "1.8.0",
+  "numpy": "2.3.5",
+  "joblib": "1.5.1",
+  "fecha_entrenamiento": "2026-10-15T13:55:32+00:00",
+  "datos": "sintéticos, generados por entrenar_modelo.py (semilla 42)"
+}
